@@ -11,7 +11,7 @@ video examples:  https://www.youtube.com/playlist?list=PL39Cz8KUgoRkP_1PGYTlOY0G
 ### Step 1: install the requirements
 
 This simulator uses the Taichi Programming Language so you will need to install that.
-simply run:
+Simply run:
 ```
 pip install -r requirements.txt
 ```
@@ -175,11 +175,14 @@ scaling_factor = 5e-8  # Vary accordingly
 ## To run an example
 
 to run a grid ased example simply run:
+```
 python3 grid.py
-
+```
 
 to run a pressure model example simply run:
+```
 python3 balloon.py
+```
 
 
 
@@ -194,6 +197,15 @@ As the spring constant k goest up, we would like to also increase the substep si
 the file "gf2.py" is a libary for generating "grids" of particle systems or truss structures
 
 the file "bf2.py" is a libary for generating " of particle systems or truss structures
+
+
+
+## System Requirements
+This simulator has been tested and used on a Windows 10 machine using python 3.8.9.
+Please note currently, Taichi does not support python 3.9 so DO NOT EVEN TRY.
+For more information about taichi, please visit: https://taichi.graphics/.
+the taichi documentation can be found here: https://taichi.readthedocs.io/
+and then taichi github page where you can even find a few interesting examples of projects built in taichi: https://github.com/taichi-dev/taichi
 
 
 
