@@ -59,65 +59,96 @@ project_name = "grid"
 name of the project
 
 
+```python
 width
 height
+```
 width and height of the GUI and of the screen and of the image size.
 
 
+```python
 GROUND = 0.3
+```
 this sets the y-positon of the ground
 
-This sets the energy loss ratio of collisions between particles and the ground.
+```python
 ground_damp = 0.4
+```
+This sets the energy loss ratio of collisions between particles and the ground.
 
+```python
 DIM = 2
+```
 Dimension - keep it to 2 for now
 
 
-
+```python
 gravity = 5
+```
 Setting the gravity, viscousDamping to influence the particle motion
 
+```python
 viscousDamping = 3
+```
 viscous damping
 
-
+```python
 useGravity = True
+```
 Set to true if we wish to have gravity
 
-
+```python
 num_substeps = 40
+```
 Number of substeps
 
+```python
 step_size = 0.005
+```
 step size
 
+
+```python
 h = step_size / num_substeps
+```
 Substep size
 
 ### grid system
+
+```python
 g_rows = 4
+```
 number of rows in the computed grid.
+
+```python
 g_cols = 4
+```
 number of cols in the computed grid.
 
+
+```python
 start_x = 0.5
 start_y = 0.4
+```
 starting position of the grid created
 
+
+```python
 spring_len_x = 0.02
 spring_len_y = 0.02
+```
 distance between each particle in the grid.
 
-### Vector fields related to the particles
+### Particle data
+```python
 particle_radius = 5
 particle_mass = 2
 num_particles = g_rows * g_cols
 particle_color = 0x9999FF
-
+```
 
 ### Pressure Constants
-P =  V^-1 * N * R * T
+```python
 use_pressure_model = True  # set to true to use pressure model
 draw_center = True  # Set to true to see center for the triangulation
 use_triangulation = True  # Set to true for exact area using triangulation,
@@ -128,6 +159,7 @@ R = 8.314  # Keep constant
 N = 1000  # Keep Constant
 T = 30  # Keep Constant
 scaling_factor = 5e-8  # Vary accordingly
+```
 
 
 
