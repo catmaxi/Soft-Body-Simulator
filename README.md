@@ -9,10 +9,17 @@ video examples:  https://www.youtube.com/playlist?list=PL39Cz8KUgoRkP_1PGYTlOY0G
 ## Run
 
 ### Step 1: install the requirements
+
+This simulator uses the Taichi Programming Language so you will need to install that.
 simply run:
+```
 pip install -r requirements.txt
+```
 OR
+```
 pip install taichi
+```
+
 
 
 ### Step 2: running the file
