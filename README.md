@@ -1,7 +1,9 @@
 # Soft-Body-Simulator
 
 ## Links
-video : : https://www.youtube.com/watch?v=1tz_Blu0F6k
+video: https://www.youtube.com/watch?v=1tz_Blu0F6k
+
+video examples:  https://www.youtube.com/playlist?list=PL39Cz8KUgoRkP_1PGYTlOY0G1NgRBYebp
 
 
 ## Run
