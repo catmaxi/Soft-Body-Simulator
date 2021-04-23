@@ -29,21 +29,33 @@ as you can see in the paper and in the video, there are 2 types of models for so
 
 
 ## parameters
-there are many parameters that you can set so that it does different things
+there are many parameters that you can set so that it does different things:
 
-"spring_debug"
+```python
+spring_debug
+```
 if turned on, will show the spring-mass system else it will show the rendered soft body.
 
+```python
 self_collision = False
+```
 this activates particle-particle collisions
 
+
+```python
 write_image = False
+```
 If turned on, then will start writing each frame into files.
 
+```python
 image_dir = "img/grid/"
+```
 path to write to 
 
+
+```python
 project_name = "grid"
+```
 name of the project
 
 
