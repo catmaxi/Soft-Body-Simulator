@@ -207,9 +207,9 @@ For more information about taichi, please visit: https://taichi.graphics/.
 the taichi documentation can be found here: https://taichi.readthedocs.io/
 and then taichi github page where you can even find a few interesting examples of projects built in taichi: https://github.com/taichi-dev/taichi
 
+Note:
 
-
-
+you do need to check out the system requirements for taichi on the taichi github page.
 
 
 
