@@ -11,9 +11,9 @@ ti.init(arch=ti.opengl)
 all initialization must be done at the very top
 """
 
-spring_debug = True
+spring_debug = False
 
-self_collision = True
+self_collision = False
 write_image = False
 
 image_dir = "img/grid/"
@@ -34,9 +34,9 @@ viscousDamping = 3
 # Set to true if we wish to have gravity
 useGravity = True
 # Number of substeps ( range from A1: [ 1 , 100 ] )
-num_substeps = 10
+num_substeps = 40
 # Step size ( range from A1: [ 1e-5 , 1 ] )
-step_size = 0.001
+step_size = 0.005
 # Substep size
 h = step_size / num_substeps
 
@@ -45,7 +45,7 @@ g_rows = 4
 g_cols = 4
 
 start_x = 0.5
-start_y = 0.6
+start_y = 0.4
 spring_len_x = 0.02
 spring_len_y = 0.02
 
@@ -65,8 +65,8 @@ thickness = 3
 
 # Vector fields related to the springs
 spring_radius = 1
-spring_stiffness_constant = 100000000
-spring_damping_constant = 1000
+spring_stiffness_constant = 1000000000
+spring_damping_constant = 100
 num_springs = gf.number_of_springs_estimator(g_rows, g_cols)
 spring_color = 0x9999FF
 s_connections = np.zeros((num_springs, 2), dtype=int)  # Indices of the 2 particles that each spring links
